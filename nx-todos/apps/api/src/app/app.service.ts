@@ -1,9 +1,5 @@
 import { Injectable } from '@nestjs/common';
-
-interface Todo {
-  title: string;
-}
-
+import { Todo } from '@nx-todos/data';
 @Injectable()
 export class AppService {
   todos: Todo[] = [{ title: 'Todo 1' }, { title: 'Todo 2' }];

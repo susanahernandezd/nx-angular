@@ -1,10 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
-
-interface Todo {
-  title: string;
-}
-
+import { Todo } from '@nx-todos/data';
 @Component({
   selector: 'nx-todos-root',
   templateUrl: './app.component.html',
